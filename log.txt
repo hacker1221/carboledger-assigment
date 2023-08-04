@@ -8,3 +8,59 @@
 1691180935733:::ffff:127.0.0.1 GET: /api/companies
 
 1691180938943:::ffff:127.0.0.1 GET: /api/companies/1/emission-records
+
+1691182345612:::ffff:127.0.0.1 POST: /api/companies
+
+1691182668193:::ffff:127.0.0.1 POST: /api/companies
+
+1691182733481:::ffff:127.0.0.1 POST: /api/companies
+
+1691182770527:::ffff:127.0.0.1 POST: /api/companies
+
+1691183940431:::ffff:127.0.0.1 GET: /api/companies/4
+
+1691185256835:::ffff:127.0.0.1 GET: /api/companies
+
+1691185314503:::ffff:127.0.0.1 GET: /api/companies
+
+1691186494275:::ffff:127.0.0.1 GET: /api/companies
+
+1691187243136:::ffff:127.0.0.1 POST: /api/emission-records
+
+1691187773251:::ffff:127.0.0.1 GET: /api/emission-records/123
+
+1691187779744:::ffff:127.0.0.1 GET: /api/emission-records/1
+
+1691188381550:::ffff:127.0.0.1 GET: /api/emission-records/1
+
+1691189250485:::ffff:127.0.0.1 GET: /api/companies/1/emission-records
+
+1691189319066:::ffff:127.0.0.1 GET: /api/companies/4/emission-records
+
+1691189339498:::ffff:127.0.0.1 GET: /api/companies/3/emission-records
+
+1691189344399:::ffff:127.0.0.1 GET: /api/companies/4/emission-records
+
+1691189349946:::ffff:127.0.0.1 POST: /api/emission-records
+
+1691189358519:::ffff:127.0.0.1 GET: /api/companies/4/emission-records
+
+1691189428771:::ffff:127.0.0.1 GET: /api/companies
+
+1691189443543:::ffff:127.0.0.1 GET: /api/companies/4
+
+1691189447138:::ffff:127.0.0.1 GET: /api/companies
+
+1691189552922:::ffff:127.0.0.1 GET: /api/companies
+
+1691189580831:::ffff:127.0.0.1 GET: /api/companies
+
+1691189660064:::ffff:127.0.0.1 GET: /api/companies
+
+1691189734798:::ffff:127.0.0.1 GET: /api/companies
+
+1691189906295:::ffff:127.0.0.1 GET: /api/companies
+
+1691189910805:::ffff:127.0.0.1 GET: /api/companies/4/emission-records
+
+1691189971585:::ffff:127.0.0.1 GET: /api/emission-records/1

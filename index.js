@@ -20,6 +20,7 @@ const emissionRouter= require("./routers/emission.router")
 
 
 // use middleware
+app.use(express.json())
 app.use(logReqRes("log.txt"))
 
 // add routes to project
