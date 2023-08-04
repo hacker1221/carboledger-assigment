@@ -1,0 +1,10 @@
+
+1691180920080:::ffff:127.0.0.1 GET: /api/companies/1/emission-records
+
+1691180928625:::ffff:127.0.0.1 POST: /api/companies
+
+1691180932150:::ffff:127.0.0.1 GET: /api/companies/1
+
+1691180935733:::ffff:127.0.0.1 GET: /api/companies
+
+1691180938943:::ffff:127.0.0.1 GET: /api/companies/1/emission-records
