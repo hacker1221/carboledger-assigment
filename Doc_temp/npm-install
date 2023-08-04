@@ -1,0 +1,7 @@
+npm install pg pg-hstore
+
+npm install sequelize
+
+npm install sequelize
+
+npm install express
