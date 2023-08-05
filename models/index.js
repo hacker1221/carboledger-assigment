@@ -2,7 +2,7 @@ const dbConfig = require("../config/db.config.js");
 
 const Sequelize = require("sequelize");
 
-const sequelize = new Sequelize(`postgres://${dbConfig.USER}:${dbConfig.PASSWORD}@${dbConfig.HOST}/${dbConfig.DB}`) // Example for postgres
+const sequelize = new Sequelize(`postgres://${dbConfig.USER}:${dbConfig.PASSWORD}@${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`) // Example for postgres
 
 // const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
 //     host: dbConfig.HOST,

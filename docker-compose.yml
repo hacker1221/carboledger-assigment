@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  postgresdb:
+    image: postgres
+    container_name: carbon-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+
+  app:
+    image: node:18.17.0
+    container_name: carbon-emissions-app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgresdb
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: sh -c "npm install && npm start" # Run npm install and npm start
+    environment:
+      DB_HOST: postgresdb
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: password
+      DB_NAME: postgres
+
+
+

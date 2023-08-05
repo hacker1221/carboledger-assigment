@@ -64,3 +64,5 @@
 1691189910805:::ffff:127.0.0.1 GET: /api/companies/4/emission-records
 
 1691189971585:::ffff:127.0.0.1 GET: /api/emission-records/1
+
+1691213406069:::ffff:172.19.0.1 GET: /api/companies

@@ -10,8 +10,11 @@ const { logReqRes } = require("./middleware")
 
 // db.sequelize.sync({ force: true }).then(() => {
 //     console.log("The table for the User model was just (re)created!");
-//     // run();
 //     });
+
+db.sequelize.sync().then(() => {
+    console.log("The table for company and emission are sync");
+    });
 
 
 //import router
