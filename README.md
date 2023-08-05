@@ -1,8 +1,8 @@
 # Carbon Emissions Data Tracking API - Task List
 
 ### Task list ( pending)
-- [ ] Docker composse file for quick deployment of project
-- [ ] get database configuration from .env 
+- [X] Docker composse file for quick deployment of project
+- [X] get database configuration from .env 
 
 - [ ] GitHub Documentation:
   - [ ] Update the README file to include instructions for running the application locally.
